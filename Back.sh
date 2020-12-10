@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Comprobar comandos
+set -x 
+
 #--VARIABLES PARA MYSQL--
 DB_ROOT_PASSWD=root
 #--VARIABLES PARA MYSQL--

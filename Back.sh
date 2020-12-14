@@ -39,3 +39,6 @@ git clone https://github.com/josejuansanchez/iaw-practica-lamp
 
 #Importar el script de creación de la base de datos
 mysql -u root -p$DB_ROOT_PASSWD < /home/ubuntu/iaw-practica-lamp/db/database.sql
+
+#Reiniciar mysql
+service mysql restart
